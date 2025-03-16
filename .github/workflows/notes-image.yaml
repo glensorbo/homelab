@@ -24,7 +24,8 @@ jobs:
         with:
           images: ${{ vars.CONTAINER_REGISTRY }}/homelab/notes
           tags: |
-            type=raw,prefix=latest
+            type=raw,value=latest
+
       - name: Login ACR
         uses: azure/docker-login@v2
         with:
