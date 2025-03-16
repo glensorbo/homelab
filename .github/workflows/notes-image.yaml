@@ -8,7 +8,7 @@ on:
     paths:
       - "notes/**/*.*"
       - "docker/Dockerfile.notes"
-      - "docker/nginx.default.conf"
+      - ".github/workflows/notes-image.yaml"
 
 jobs:
   build_image:
